@@ -24,3 +24,5 @@ https://godotengine.org/download/
 
 8. Your final image should look something like this, with your own name in the text. Submit this PNG file to Canvas to complete the HW. 
 (Note: submitting a JPG will not cut it)
+
+![image](https://user-images.githubusercontent.com/392417/220440400-723d5214-6af6-4a7d-8551-ba0e9254e1cb.png)

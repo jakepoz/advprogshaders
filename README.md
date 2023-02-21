@@ -21,3 +21,6 @@ https://godotengine.org/download/
 6. Adjust the text label to include your name.
 
 7. Run the game by pressing the F5 key, Take a screenshot (you can use the "Snipping Tool" in Windows), that includes the text "Welcome to Advanced Programming with Godot 3.5.1" "My name is [yourname] and my Godot setup is working.
+
+8. Your final image should look something like this, with your own name in the text. Submit this PNG file to Canvas to complete the HW. 
+(Note: submitting a JPG will not cut it)

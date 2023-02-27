@@ -14,8 +14,9 @@ https://godotengine.org/download/
 
 4. Setup Git on Windows
 You can use one of the following
-https://desktop.github.com/
-http://gitextensions.github.io/
+
+- https://desktop.github.com/
+- http://gitextensions.github.io/
 
 5. Clone this repository to your computer.
 

@@ -1,4 +1,4 @@
-extends KinematicBody2D
+extends CharacterBody2D
 
 
 var speed = 5
@@ -6,8 +6,7 @@ var speed = 5
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	pass # Replace with function body.
-
+	$AnimatedSprite2D.play("default")
 
 func _physics_process(delta):
 	var dir = Vector2.ZERO

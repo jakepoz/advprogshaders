@@ -8,7 +8,7 @@ The point of this assignment is simply to make sure that everyone has downloaded
 1. Go to the following link
 https://godotengine.org/download/
 
-2. Be sure to get **Godot 4.01**!
+2. Be sure to get **Godot 4.0**!
 
 3. Unzip the file, and run the exe that was provided
 
@@ -27,4 +27,5 @@ https://godotengine.org/download/
 8. Your final image should look something like this, with your own name in the text. Submit this PNG file to Canvas to complete the HW. 
 (Note: submitting a JPG will not cut it)
 
-![image](https://user-images.githubusercontent.com/392417/220440400-723d5214-6af6-4a7d-8551-ba0e9254e1cb.png)
+![image](https://user-images.githubusercontent.com/392417/222282704-a0619ade-095a-469e-bbd2-f2b91040657a.png)
+

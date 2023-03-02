@@ -1,7 +1,8 @@
-[gd_scene load_steps=9 format=3 uid="uid://dcclnanbm24n2"]
+[gd_scene load_steps=11 format=3 uid="uid://dcclnanbm24n2"]
 
 [ext_resource type="Texture2D" uid="uid://blvgejjoy2qai" path="res://chest_01.png" id="1_0i30x"]
 [ext_resource type="Script" path="res://chest.gd" id="1_12ah6"]
+[ext_resource type="AudioStream" uid="uid://d34o4i2k3im5n" path="res://Win sound.wav" id="3_5krld"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_br1ct"]
 atlas = ExtResource("1_0i30x")
@@ -42,6 +43,14 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ac8f4"]
 size = Vector2(29, 28)
 
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ein1x"]
+bg_color = Color(0.6, 0.6, 0.6, 0.619608)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0, 0, 0, 1)
+
 [node name="Chest" type="StaticBody2D"]
 script = ExtResource("1_12ah6")
 
@@ -52,3 +61,29 @@ sprite_frames = SubResource("SpriteFrames_nqeuj")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0.5, 0)
 shape = SubResource("RectangleShape2D_ac8f4")
+
+[node name="RewardSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_5krld")
+
+[node name="RewardLabel" type="Label" parent="."]
+visible = false
+z_index = 42
+z_as_relative = false
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -177.0
+offset_top = -65.0
+offset_right = 177.0
+offset_bottom = 65.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/shadow_outline_size = 0
+theme_override_styles/normal = SubResource("StyleBoxFlat_ein1x")
+text = "                          Congratulations!
+
+You earned 1 bonus point on this assignment.
+Please take a screenshot and submit it along 
+with your assignment to get credit."

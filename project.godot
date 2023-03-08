@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="hw0"
-run/main_scene="res://HW0.tscn"
+run/main_scene="res://ShaderExample.tscn"
 config/features=PackedStringArray("4.0")
 config/icon="res://icon.png"
 
